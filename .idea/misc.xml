@@ -3,9 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/JankenApp/app/src/main/res/layout/activity_difficulty.xml" value="0.16666666666666666" />
-        <entry key="..\:/JankenApp/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
-        <entry key="..\:/JankenApp/app/src/main/res/layout/activity_rank.xml" value="0.1" />
+        <entry key="..\:/JankenApp/app/src/main/res/layout/activity_main.xml" value="0.22" />
       </map>
     </option>
   </component>

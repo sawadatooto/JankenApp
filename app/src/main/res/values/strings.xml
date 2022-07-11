@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">JankenApp</string>
     <string name="たたいてかぶって">たたいてかぶって</string>
+    <string name="グー">グー</string>
+    <string name="チョキ">チョキ</string>
+    <string name="パー">パー</string>
+    <string name="ヘルメット">ヘルメット</string>
+    <string name="ハンマー">ハンマー</string>
 </resources>

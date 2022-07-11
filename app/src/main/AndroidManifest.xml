@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.JankenApp">
         <activity
+            android:name=".BattleActivity"
+            android:exported="false" />
+        <activity
             android:name=".RankActivity"
             android:exported="false" />
         <activity
