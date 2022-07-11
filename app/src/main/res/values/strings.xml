@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">JankenApp</string>
     <string name="たたいてかぶって">たたいてかぶって</string>
+    <string name="ruleImage">ruleImage</string>
 </resources>
