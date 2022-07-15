@@ -8,12 +8,12 @@ import android.widget.ImageSwitcher;
 import android.widget.ImageView;
 
 public class Rule extends AppCompatActivity {
-
+/*やあ*/
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rule);
-        ruleImageSwitcher = findViewById(R.id.ruleView);
+        ruleImageSwitcher = findViewById(R.id.ruleView1);
         ruleImageSwitcher.setFactory(() -> new ImageView(getApplicationContext()));
         Button tapButton = findViewById(R.id.nextButton);
         tapButton.setOnClickListener(v -> movePosition());

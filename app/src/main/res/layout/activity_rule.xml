@@ -60,7 +60,7 @@
         tools:text="スタート" />
 
     <ImageSwitcher
-        android:id="@+id/ruleView"
+        android:id="@+id/ruleView1"
         android:layout_width="298dp"
         android:layout_height="585dp"
         android:contentDescription="@string/ruleImage"
