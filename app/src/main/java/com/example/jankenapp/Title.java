@@ -2,6 +2,7 @@ package com.example.jankenapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 public class Title extends AppCompatActivity {
@@ -12,4 +13,5 @@ public class Title extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
     }
+
 }
