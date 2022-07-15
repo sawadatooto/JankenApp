@@ -2,7 +2,9 @@ package com.example.jankenapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 public class Difficulty extends AppCompatActivity {
 
@@ -10,5 +12,13 @@ public class Difficulty extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_difficulty);
+    }
+    public void onTitleBackTapped(View view){
+        finish();
+    }
+
+    public void onDifficultyButton(View view){
+        Intent intent = new Intent(this, BattleActivity.class);
+        startActivity(intent);
     }
 }

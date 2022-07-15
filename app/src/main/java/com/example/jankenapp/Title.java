@@ -19,4 +19,12 @@ public class Title extends AppCompatActivity {
         Intent intent = new Intent(this, Difficulty.class);
         startActivity(intent);
     }
+    public void onRuleButton(View view){
+        Intent intent = new Intent(this, Rule.class);
+        startActivity(intent);
+    }
+    public void onRankButton(View view){
+        Intent intent = new Intent(this, RankActivity.class);
+        startActivity(intent);
+    }
 }
