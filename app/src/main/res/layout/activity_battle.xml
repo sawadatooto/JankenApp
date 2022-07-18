@@ -11,21 +11,23 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:contentDescription="@string/グー"
+        android:onClick="gu"
         android:scaleType="fitCenter"
-        app:layout_constraintBottom_toBottomOf="@+id/tyokiButton"
-        app:layout_constraintEnd_toStartOf="@+id/tyokiButton"
+        app:layout_constraintBottom_toBottomOf="@+id/chokiButton"
+        app:layout_constraintEnd_toStartOf="@+id/chokiButton"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/tyokiButton"
+        app:layout_constraintTop_toTopOf="@+id/chokiButton"
         tools:ignore="ImageContrastCheck,ImageContrastCheck,ImageContrastCheck"
         tools:srcCompat="@drawable/janken_gu" />
 
     <ImageButton
-        android:id="@+id/tyokiButton"
+        android:id="@+id/chokiButton"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="30dp"
         android:contentDescription="@string/チョキ"
+        android:onClick="choki"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -39,11 +41,12 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:contentDescription="@string/パー"
+        android:onClick="pa"
         android:scaleType="fitCenter"
-        app:layout_constraintBottom_toBottomOf="@+id/tyokiButton"
+        app:layout_constraintBottom_toBottomOf="@+id/chokiButton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/tyokiButton"
-        app:layout_constraintTop_toTopOf="@+id/tyokiButton"
+        app:layout_constraintStart_toEndOf="@+id/chokiButton"
+        app:layout_constraintTop_toTopOf="@+id/chokiButton"
         app:srcCompat="@drawable/janken_pa"
         tools:ignore="ImageContrastCheck" />
 
@@ -80,7 +83,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="ImageContrastCheck"
-        tools:srcCompat="@drawable/janken_npc1" />
+        tools:srcCompat="@drawable/janken_npc" />
 
     <ImageView
         android:id="@+id/imageView4"
