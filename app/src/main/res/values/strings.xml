@@ -8,4 +8,8 @@
     <string name="ピコピコハンマー" />
     <string name="ヘルメット">ヘルメット</string>
     <string name="result_draw">あいこです</string>
+    <string name="jankenpon">じゃんけんポン</string>
+    <string name="start">スタート</string>
+    <string name="Rule">遊び方</string>
+    <string name="Rank">ランキング</string>
 </resources>

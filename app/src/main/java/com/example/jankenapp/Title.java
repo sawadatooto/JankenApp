@@ -16,12 +16,12 @@ public class Title extends AppCompatActivity {
 
     }
     public void onStartButton(View view){
-        Intent intent = new Intent(this, Difficulty.class);
-        startActivity(intent);
+        Intent intent1 = new Intent(getApplication(), Difficulty.class);
+        startActivity(intent1);
     }
     public void onRuleButton(View view){
-        Intent intent = new Intent(this, Rule.class);
-        startActivity(intent);
+        Intent intent2 = new Intent(this, Rule.class);
+        startActivity(intent2);
     }
     public void onRankButton(View view){
         Intent intent = new Intent(this, RankActivity.class);

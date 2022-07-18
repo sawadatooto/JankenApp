@@ -19,6 +19,7 @@ public class Difficulty extends AppCompatActivity {
 
     public void onDifficultyButton(View view){
         Intent intent = new Intent(this, BattleActivity.class);
+        intent.putExtra("DIFFICULTY",view.getId());
         startActivity(intent);
     }
 }
