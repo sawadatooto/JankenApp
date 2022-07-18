@@ -1,13 +1,16 @@
 package com.example.jankenapp;
 
 import androidx.appcompat.app.AppCompatActivity;
-
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.ImageSwitcher;
 import android.widget.ImageView;
 
-public class Rule extends AppCompatActivity {
+
+public class Rule2 extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,5 +33,12 @@ public class Rule extends AppCompatActivity {
             ruleSlide = ruleImageResources.length -1;
         }
         ruleImageSwitcher.setImageResource(ruleImageResources[ruleSlide]);
+    }
+    public void onTitleBackTapped(View view){
+        finish();
+    }
+    public void onStartButtonTapped(View view){
+        Intent intent = new Intent(this, Difficulty2.class);
+        startActivity(intent);
     }
 }

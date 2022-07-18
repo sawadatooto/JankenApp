@@ -12,4 +12,10 @@
     <string name="start">スタート</string>
     <string name="Rule">遊び方</string>
     <string name="Rank">ランキング</string>
+    <string name="Back">タイトルに戻る</string>
+    <string name="Easy">Easy</string>
+    <string name="Normal">Normal</string>
+    <string name="Hard">Hard</string>
+    <string name="Endless">Endless</string>
+    <string name="nanidowoerandene">難易度を選んでね</string>
 </resources>

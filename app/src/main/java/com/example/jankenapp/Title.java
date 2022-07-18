@@ -21,7 +21,7 @@ public class Title extends AppCompatActivity {
         startActivity(intent);
     }
     public void onRuleButton(View view){
-        Intent intent = new Intent(this, Rule.class);
+        Intent intent = new Intent(this, Rule2.class);
         startActivity(intent);
     }
     public void onRankButton(View view){
