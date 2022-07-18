@@ -13,7 +13,7 @@
             android:name=".Endless"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Title"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

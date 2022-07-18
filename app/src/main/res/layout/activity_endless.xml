@@ -79,7 +79,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="ImageContrastCheck"
-        tools:srcCompat="@drawable/janken_npc1" />
+        tools:srcCompat="@drawable/janken_npc" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -171,5 +171,6 @@
         app:layout_constraintBottom_toTopOf="@+id/player"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/npc"
+        tools:ignore="SpeakableTextPresentCheck"
         tools:srcCompat="@drawable/pikopiko_hummer" />
 </androidx.constraintlayout.widget.ConstraintLayout>
