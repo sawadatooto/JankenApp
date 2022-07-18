@@ -34,7 +34,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:onClick="onStartButton"
+        android:onClick="onStartButtonTapped"
         android:text="@string/start"
         android:textSize="20sp"
         app:backgroundTint="@color/black"
@@ -84,5 +84,17 @@
         app:layout_constraintTop_toBottomOf="@+id/title2"
         app:srcCompat="@drawable/kids_tataitekabutte"
         tools:srcCompat="@drawable/kids_tataitekabutte" />
+
+    <Button
+        android:id="@+id/kaributton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginBottom="17dp"
+        android:onClick="onaiueoButton"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
