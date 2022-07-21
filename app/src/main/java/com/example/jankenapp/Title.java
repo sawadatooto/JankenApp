@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.graphics.DashPathEffect;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 
 public class Title extends AppCompatActivity {
 
@@ -14,7 +15,8 @@ public class Title extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        Button rankButton = (Button) findViewById(R.id.Rankbutton);
+        rankButton.setVisibility(View.INVISIBLE);
     }
     public void onStartButtonTapped(View view){
         Intent intent = new Intent(this, Difficulty2.class);
@@ -24,6 +26,7 @@ public class Title extends AppCompatActivity {
         Intent intent = new Intent(this, Rule2.class);
         startActivity(intent);
     }
+
     public void onRankButton(View view){
         Intent intent = new Intent(this, RankActivity.class);
         startActivity(intent);

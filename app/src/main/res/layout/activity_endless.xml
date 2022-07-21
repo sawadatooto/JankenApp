@@ -5,26 +5,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Endless">
+
     <ImageButton
         android:id="@+id/guButton"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:contentDescription="@string/グー"
+        android:contentDescription="@string/gu"
         android:scaleType="fitCenter"
-        app:layout_constraintBottom_toBottomOf="@+id/tyokiButton"
-        app:layout_constraintEnd_toStartOf="@+id/tyokiButton"
+        android:src="@drawable/janken_gu"
+        app:layout_constraintBottom_toBottomOf="@+id/chokiButton"
+        app:layout_constraintEnd_toStartOf="@+id/chokiButton"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/tyokiButton"
-        tools:ignore="ImageContrastCheck,ImageContrastCheck,ImageContrastCheck"
-        tools:srcCompat="@drawable/janken_gu" />
+        app:layout_constraintTop_toTopOf="@+id/chokiButton"
+        tools:ignore="ImageContrastCheck,ImageContrastCheck,ImageContrastCheck" />
 
     <ImageButton
-        android:id="@+id/tyokiButton"
+        android:id="@+id/chokiButton"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="30dp"
-        android:contentDescription="@string/チョキ"
+        android:contentDescription="@string/choki"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -37,12 +38,12 @@
         android:id="@+id/paButton"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:contentDescription="@string/パー"
+        android:contentDescription="@string/pa"
         android:scaleType="fitCenter"
-        app:layout_constraintBottom_toBottomOf="@+id/tyokiButton"
+        app:layout_constraintBottom_toBottomOf="@+id/chokiButton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/tyokiButton"
-        app:layout_constraintTop_toTopOf="@+id/tyokiButton"
+        app:layout_constraintStart_toEndOf="@+id/chokiButton"
+        app:layout_constraintTop_toTopOf="@+id/chokiButton"
         app:srcCompat="@drawable/janken_pa"
         tools:ignore="ImageContrastCheck" />
 
@@ -57,7 +58,7 @@
         app:layout_constraintTop_toBottomOf="@+id/npc"
         tools:text="じゃんけん…" />
 
-    <ImageView
+    <ImageSwitcher
         android:id="@+id/player"
         android:layout_width="250dp"
         android:layout_height="200dp"
@@ -69,7 +70,7 @@
         app:layout_constraintTop_toBottomOf="@+id/starttext"
         tools:srcCompat="@drawable/janken_player1" />
 
-    <ImageView
+    <ImageSwitcher
         android:id="@+id/npc"
         android:layout_width="250dp"
         android:layout_height="200dp"
@@ -81,79 +82,13 @@
         tools:ignore="ImageContrastCheck"
         tools:srcCompat="@drawable/janken_npc" />
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginLeft="40dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/fabric_mark_heart" />
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginLeft="40dp"
-        android:layout_marginTop="25dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4"
-        app:srcCompat="@drawable/fabric_mark_heart" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginLeft="40dp"
-        android:layout_marginTop="25dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5"
-        app:srcCompat="@drawable/fabric_mark_heart" />
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="45dp"
-        android:layout_marginEnd="40dp"
-        android:layout_marginRight="40dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/starttext"
-        app:srcCompat="@drawable/fabric_mark_heart" />
-
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="25dp"
-        android:layout_marginEnd="40dp"
-        android:layout_marginRight="40dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7"
-        app:srcCompat="@drawable/fabric_mark_heart" />
-
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="25dp"
-        android:layout_marginEnd="40dp"
-        android:layout_marginRight="40dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView8"
-        app:srcCompat="@drawable/fabric_mark_heart" />
-
     <ImageButton
         android:id="@+id/helmetButton"
         android:layout_width="130dp"
         android:layout_height="130dp"
         android:layout_marginStart="50dp"
         android:layout_marginLeft="50dp"
-        android:contentDescription="@string/ヘルメット"
+        android:contentDescription="@string/Helmet"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toTopOf="@+id/player"
         app:layout_constraintStart_toStartOf="parent"
@@ -166,11 +101,11 @@
         android:layout_height="130dp"
         android:layout_marginEnd="50dp"
         android:layout_marginRight="50dp"
-        android:contentDescription="@string/ピコピコハンマー"
+        android:contentDescription="@string/hummer"
         android:scaleType="fitCenter"
+        android:src="@drawable/pikopiko_hummer"
         app:layout_constraintBottom_toTopOf="@+id/player"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/npc"
-        tools:ignore="SpeakableTextPresentCheck"
-        tools:srcCompat="@drawable/pikopiko_hummer" />
+        tools:ignore="SpeakableTextPresentCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>
