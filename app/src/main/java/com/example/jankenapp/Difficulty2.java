@@ -14,7 +14,8 @@ public class Difficulty2 extends AppCompatActivity {
         setContentView(R.layout.activity_difficulty2);
     }
     public void onTitleBackTapped(View view){
-        finish();
+        Intent intent = new Intent(this,Title.class);
+        startActivity(intent);
     }
 
     public void onDifficultyButton(View view){
