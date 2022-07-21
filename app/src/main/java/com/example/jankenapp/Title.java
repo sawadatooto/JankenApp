@@ -28,8 +28,4 @@ public class Title extends AppCompatActivity {
         Intent intent = new Intent(this, RankActivity.class);
         startActivity(intent);
     }
-    public void onaiueoButton(View view){
-        Intent intent = new Intent(this, aiueo.class);
-        startActivity(intent);
-    }
 }

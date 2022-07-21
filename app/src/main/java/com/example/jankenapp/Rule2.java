@@ -56,11 +56,6 @@ public class Rule2 extends AppCompatActivity {
     int ruleSlide = 0;
     private void movePosition(int move) {
         ruleSlide = ruleSlide + move;
-        if (ruleSlide >= ruleImageResources.length) {
-            ruleSlide = 2;
-        } else if (ruleSlide < 0) {
-            ruleSlide = 0;
-        }
         ruleImageSwitcher.setImageResource(ruleImageResources[ruleSlide]);
     }
     public void onTitleBackTapped(View view){
