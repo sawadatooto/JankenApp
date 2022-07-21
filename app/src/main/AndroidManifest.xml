@@ -16,9 +16,6 @@
             android:name=".Difficulty2"
             android:exported="false" />
         <activity
-            android:name=".aiueo"
-            android:exported="false" />
-        <activity
             android:name=".Endless"
             android:exported="false" />
         <activity
