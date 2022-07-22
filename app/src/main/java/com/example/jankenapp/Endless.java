@@ -78,11 +78,11 @@ public class Endless extends AppCompatActivity {
         });
     }
 
-    ImageButton guButton = (ImageButton) findViewById(R.id.guButton);
+    ImageButton guButton = (ImageButton) findViewById(R.id.guButton);/*こいつらが悪さをしてるみたい*/
     ImageButton chokiButton = (ImageButton) findViewById(R.id.chokiButton);
     ImageButton paButton = (ImageButton) findViewById(R.id.paButton);
     ImageButton atackButton = (ImageButton) findViewById(R.id.hummerButton);
-    ImageButton guardButton = (ImageButton) findViewById(R.id.helmetButton);
+    ImageButton guardButton = (ImageButton) findViewById(R.id.helmetButton);/*↑ここまで*/
 
     ImageSwitcher playerImageSwitcher;
     int[] playerImageResources = { R.drawable.janken_player_gu, R.drawable.janken_player_choki, R.drawable.janken_player_pa};
