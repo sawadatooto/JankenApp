@@ -10,11 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.JankenApp">
         <activity
-            android:name=".Rule2"
+            android:name=".Rule"
             android:exported="false" />
             android:screenOrientation="portrait"
         <activity
-            android:name=".Difficulty2"
+            android:name=".Difficulty"
             android:exported="false" />
             android:screenOrientation="portrait"
         <activity

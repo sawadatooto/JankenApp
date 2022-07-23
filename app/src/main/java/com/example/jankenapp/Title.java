@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 
 import android.content.Intent;
-import android.graphics.DashPathEffect;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -19,11 +18,11 @@ public class Title extends AppCompatActivity {
         rankButton.setVisibility(View.INVISIBLE);
     }
     public void onStartButtonTapped(View view){
-        Intent intent = new Intent(this, Difficulty2.class);
+        Intent intent = new Intent(this, Difficulty.class);
         startActivity(intent);
     }
     public void onRuleButton(View view){
-        Intent intent = new Intent(this, Rule2.class);
+        Intent intent = new Intent(this, Rule.class);
         startActivity(intent);
     }
 

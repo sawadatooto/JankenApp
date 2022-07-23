@@ -10,7 +10,7 @@ import android.widget.ImageView;
 import android.widget.ViewSwitcher;
 
 
-public class Rule2 extends AppCompatActivity {
+public class Rule extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,7 +62,7 @@ public class Rule2 extends AppCompatActivity {
         finish();
     }
     public void onStartButtonTapped(View view){
-        Intent intent = new Intent(this, Difficulty2.class);
+        Intent intent = new Intent(this, Difficulty.class);
         startActivity(intent);
     }
 }
